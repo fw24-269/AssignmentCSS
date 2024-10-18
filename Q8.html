@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Maggi Login Page</title>
+  <style>
+    .container {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    h1 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    form {
+      width: 300px;
+      margin: 0 auto;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    input {
+      width: 100%;
+      height: 50px;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+    }
+
+    .btn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      font-size: 25px;
+    }
+
+    .btn:hover {
+      background-color: #3e8e41;
+    }
+
+    button {
+      width: 400px;
+      height: 90px;
+    }
+
+    .register p {
+      font-size: 22px;
+    }
+    .register button {
+      background: rgb(46, 43, 43);
+    }
+    .register button a {
+      text-decoration: none;
+      color: white;
+      font-size: 25px;
+    }
+    .navbar {
+      justify-content: center;
+      box-shadow: 4px 4px 10px rgb(206, 204, 204);
+    
+    }
+    .nav li a img {
+      height: 40px;
+      width: 40px;
+      color: rgb(75, 74, 74);
+    }
+    .nav li a {
+      text-decoration: none;
+      color: gray;
+    }
+    .nav li {
+      margin-bottom: 30px;
+    }
+    .nav {
+      list-style: none;
+    }
+    .navbar img {
+      height: 100px;
+      width: 100px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="navbar">
+      <img src="https://www.maggi.in/sites/default/files/maggi_logo_png_0.png" alt="">
+      <ul class="nav">
+        <li><a href="">
+            <img alt="Recipes" src="https://www.maggi.in/sites/default/files/2020-01/01_Rezepte.svg"><br>
+            <span>Recipes</span>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img alt="Maggi" src="https://www.maggi.in/sites/default/files/2019-12/05_Maggi.svg"><br>
+            <span>Maggi</span>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img alt="MyMenu Plan" src="https://www.maggi.in/sites/default/files/2022-12/LogoMealPlanner_0.svg"><br>
+            <span>MyMenu Plan</span>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img alt="Search" src="https://www.maggi.in/sites/default/files/2019-12/03_Suche_11.svg"><br>
+            <span>Search</span>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img alt="Login" src="https://www.maggi.in/sites/default/files/2020-07/MAGGI_Navigation_MyMaggi_0_0.svg"><br>
+            <span>Login</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="login">
+      <h1>My Maggi</h1>
+      <p>Welcome back!</p>
+      <form>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <button type="submit" class="btn">Login via E-mail</a>
+      </form>
+    </div>
+    <div class="register">
+      <p>Not registered yet?</p>
+      <button><a href="#">Register</a></button>
+      
+
+      <p>Join Maggi today!</p>
+      <p>Your personal newsletter with exciting recipes and ideas.</p>
+      <p>Personalize your newsletter to your preferences.</p>
+      <p>Get to know about Maggi products.</p>
+
+      <p>Login via e-mail</p>
+    </div>
+  </div>
+</body>
+
+</html>

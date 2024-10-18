@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+
+  body {
+    font-family: monospace;
+    background-color: whitesmoke
+  }
+ .container {
+  position: relative;
+ }
+  #navbar {
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: white;
+  }
+  
+  .left-nav {
+    display: flex;
+    gap: 20px;
+  }
+
+  .left-nav img {
+    height: 30px;
+    width: 30px;
+  }
+
+  .left-nav a {
+    text-decoration: none;
+    color: rgb(59, 59, 59)
+  }
+
+  .right-nav {
+    display: flex;
+    gap: 20px;
+   
+  }
+
+  .right-nav a {
+    text-decoration: none;
+    color: rgb(59, 59, 59)
+  }
+
+  .products {
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    gap: 10px;
+  }
+
+.product {
+  display: flex;
+  height: 200px;
+  width: 260px;
+  padding-left: 5px;
+  background-color: white;
+  box-shadow: 4px 4px 15px rgb(219, 217, 217);
+
+}
+
+.product:hover {
+  box-shadow: 6px 6px 24px rgb(201, 199, 201);
+}
+
+.insideProduct h5 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.product img {
+  margin-top: 40px;
+  padding: 12px;
+}
+
+.discount {
+  border: 1px solid orangered;
+  color: rgb(231, 104, 57);
+  background-color: rgb(240, 220, 183);
+  width: 68px;
+  border-radius: 4px;
+  padding: 1px;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+}
+
+.banner img {
+height: 150px;
+width: 1075px;
+margin-top: 25px;
+}
+
+</style>
+<body>
+<div id="container">
+  <!--------------------- navbar ---------------------------------->
+  <div id="navbar">
+    <div class="left-nav">
+      <img src="images/MI/mi.png" alt="">
+      <a href="">Store</a>
+      <a href="">Phones</a>
+      <a href="">Tablets</a>
+      <a href="">TV & Smart Home</a>
+      <a href="">Smart Watch & Audio</a>
+    </div>
+    <div class="right-nav">
+      <a href="">Discover</a>
+      <a href="">Support</a>
+      <a href=""><img src="https://cdn-icons-png.flaticon.com/128/5636/5636698.png" alt="" style="height: 25px;width: 25px;"></a>
+      <a href=""><img src="https://cdn-icons-png.flaticon.com/128/9219/9219671.png" alt="" style="height: 25px;width: 25px;"></a>
+      <a href=""><img src="https://cdn-icons-png.flaticon.com/128/9308/9308008.png" alt="" style="height: 25px;width: 25px;"></a>
+    </div>
+  </div>
+  <!--------------------- products ---------------------------------->
+  <div class="products">
+    <div class="product">
+      <div class="insideProduct">
+        <h5>Redmi Buds</h5>
+           <span class="discount">55% off</span>
+          <p class="previousPrice"><span style="text-decoration: none; color: black; font-weight: 700;">Rs 999</span><br>
+            <span style="text-decoration: line-through;color: #898989;">RS 4999</span></p>
+      </div>
+        <img src="images/MI/buds 5.webp" alt="" style="height: 140px;">
+      </div>
+      <div class="product">
+        <div class="insideProduct">
+          <h5>Neckband</h5>
+             <span class="discount">55% off</span>
+            <p class="previousPrice"><span style="text-decoration: none; color: black; font-weight: 700;">Rs 999</span><br>
+              <span style="text-decoration: line-through;color: #898989;">RS 4999</span></p>
+        </div>
+          <img src="images/MI/5b55c8858a7f2107e20d448e280e6357.webp" alt="" style="height: 140px;">
+        </div>
+
+      <div class="product">
+        <div class="insideProduct">
+          <h5>Earphone</h5>
+             <span class="discount">55% off</span>
+            <p class="previousPrice"><span style="text-decoration: none; color: black; font-weight: 700;">Rs 999</span><br>
+              <span style="text-decoration: line-through;color: #898989;">RS 4999</span></p>
+        </div>
+          <img src="images/MI/pms_1617825722.98226831.webp" alt="" style="height: 140px;">
+        </div>
+        <div class="product">
+          <div class="insideProduct">
+            <h5>Charger</h5>
+               <span class="discount">55% off</span>
+              <p class="previousPrice"><span style="text-decoration: none; color: black; font-weight: 700;">Rs 999</span><br>
+                <span style="text-decoration: line-through;color: #898989;">RS 4999</span></p>
+          </div>
+            <img src="images/MI/869a64e04768ba2ca37109040f8757d6.webp" alt="" style="height: 140px;">
+          </div>
+    </div>
+    <!--------------------- banner---------------------------------->
+    <div class="banner">
+      <img src="images/MI/banner.webp" alt="">
+    </div>
+    <!--------------------- products ---------------------------------->
+  <div class="products" style="margin-top: 25px; margin-bottom: 25px;">
+    <div class="product">
+      <div class="insideProduct">
+        <h5>Earphone</h5>
+           <span class="discount">55% off</span>
+          <p class="previousPrice"><span style="text-decoration: none; color: black; font-weight: 700;">Rs 999</span><br>
+            <span style="text-decoration: line-through;color: #898989;">RS 4999</span></p>
+      </div>
+        <img src="images/MI/pms_1617825722.98226831.webp" alt="" style="height: 140px;">
+      </div>
+      <div class="product">
+        <div class="insideProduct">
+          <h5>Adapter</h5>
+             <span class="discount">55% off</span>
+            <p class="previousPrice"><span style="text-decoration: none; color: black; font-weight: 700;">Rs 999</span><br>
+              <span style="text-decoration: line-through;color: #898989;">RS 4999</span></p>
+        </div>
+          <img src="images/MI/da7bb99fed4873314e1f0bb59e581254.webp" alt="" style="height: 140px;">
+        </div>
+
+      <div class="product">
+        <div class="insideProduct">
+          <h5>Data cable</h5>
+             <span class="discount">55% off</span>
+            <p class="previousPrice"><span style="text-decoration: none; color: black; font-weight: 700;">Rs 999</span><br>
+              <span style="text-decoration: line-through;color: #898989;">RS 4999</span></p>
+        </div>
+          <img src="images/MI/pms_1575870690.22854399.webp" alt="" style="height: 140px;">
+        </div>
+        <div class="product">
+          <div class="insideProduct">
+            <h5>Powerbank</h5>
+               <span class="discount">55% off</span>
+              <p class="previousPrice"><span style="text-decoration: none; color: black; font-weight: 700;">Rs 999</span><br>
+                <span style="text-decoration: line-through;color: #898989;">RS 4999</span></p>
+          </div>
+            <img src="images/MI/pms_1613844064.93574921.webp" alt="" style="height: 140px;">
+          </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
